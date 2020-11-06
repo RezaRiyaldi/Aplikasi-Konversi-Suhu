@@ -1,12 +1,14 @@
+// Instagram @boy.kucayy_
+
 import java.util.Scanner;
 public class App {
     public static void main(String[] args){
         // Deklarasi variable
-        String salahPilih2 = "Anda harus memasukan angka [1, 2, 3], Selain itu salah!",
-        salahPilih = "Anda harus memasukan angka [1, 2, 3, 4], Selain itu salah!", 
+        String salahPilih2 = "Anda harus memasukan angka (1, 2, 3), Selain itu salah!",
+        salahPilih = "Anda harus memasukan angka (1, 2, 3, 4), Selain itu salah!", 
         pilihSuhuAwal, pilihSuhuKedua;
 
-        float C, R, F, K, 
+        float C, F, R, K, 
         // Variable Rumus
         Cel_Fa, 
         Cel_Re, 
@@ -221,6 +223,6 @@ public class App {
                 System.out.println(salahPilih);
                 break;
         }
-        
+        System.out.println("\n------------------------------------------\nby : RezaRiyaldi\n------------------------------------------");
     }
 }
